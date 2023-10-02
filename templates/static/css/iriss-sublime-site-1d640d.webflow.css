@@ -1,0 +1,23 @@
+.button {
+  background-color: #2b4e6e;
+}
+
+.heading {
+  color: #77beda;
+  background-color: #0e456c;
+}
+
+.heading-2 {
+  color: #255b8e;
+  text-align: center;
+}
+
+.text-span {
+  color: #bdcfd8;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+}
+
+.submit-button {
+  background-color: #0e456c;
+}

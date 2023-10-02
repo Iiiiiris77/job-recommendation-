@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <p>Welcome, <span id="username">{{ user.username }}</span>!</p>
+    {% for job in jobs %}
+    <div class="job">
+        <h3>{{ job[0] }}</h3>
+        <p>{{ job[1] }}</p>
+        <p>{{ job[2] }}</p>
+        <p>{{ job[3] }}</p>
+        <p>{{ job[4] }}</p>
+        <p>{{ job[5] }}</p>
+        <p>{{ job[6] }}</p>
+        <p>{{ job[7] }}</p>
+        <p>{{ job[8] }}</p>
+    </div>
+{% endfor %}
+    <form action="/logout" method="post">
+        <button>Logout</button>
+    </form>
+</body>
+</html>
